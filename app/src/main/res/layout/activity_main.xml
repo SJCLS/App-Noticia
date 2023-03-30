@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Próximo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="30/05/2021"
+            android:textColor="#988F8F"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Nasa divulga foto inédita que mostra ‘energia violenta’ da Via Láctea"
+            android:textColor="#988F8F"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:text="Amy Woodyatt, da CNN"
+            android:textColor="#988F8F"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="10dp"
+            android:text="A Nasa divulgou uma nova imagem detalhando a “energia violenta” no centro da Via Láctea, algo nunca antes visto e criado após duas décadas de pesquisas.
+O panorama impressionante foi compilado usando dados do Observatório de Raios-X Chandra da Nasa e do rádio telescópio MeerKAT na África do Sul.
+
+As imagens também documentaram um fio de raios-X conhecido como G0.17-0.41, que os pesquisadores dizem sugerir um mecanismo que poderia controlar o fluxo de energia e até mesmo a evolução da nossa galáxia.
+
+“A galáxia é como um ecossistema. Sabemos que os centros das galáxias são onde está a ação e desempenham um papel enorme em sua evolução”, explicou o astrônomo Daniel Wang, da Universidade de Massachusetts Amherst, em comunicado.
+
+A pesquisa, publicada na revista Monthly Notices of the Royal Astronomical Society, dá a
+ imagem mais clara até o momento de emissões de raios-X provenientes da área próxima ao
+  buraco negro no centro da galáxia.
+
+Os pesquisadores estavam especialmente interessados no fio de raios X G0.17-0.41, que,
+ segundo Wang, “revelam um novo fenômeno”.
+
+“Esta é a evidência [da existência] de um evento de reconexão de campo magnético em
+andamento.” O fio, segundo Wang, provavelmente representa “apenas a ponta do iceberg da reconexão”.
+
+Eventos de reconexão de campo magnético ocorrem quando campos magnéticos opostos são
+forçados a se unir e se combinar, expelindo muita energia. Esses eventos produzem
+auroras boreais e são responsáveis por fenômenos como erupções solares.
+
+“É um processo violento”, disse Wang.
+
+Os cientistas agora acreditam que a reconexão magnética também ocorre no espaço
+interestelar e nos limites externos das plumas em expansão expulsas do centro de
+nossa galáxia."
+            android:textColor="#988F8F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Anterior"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/galaxia"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
