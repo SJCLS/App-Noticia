@@ -1,29 +1,50 @@
-<h1>Projeto Noticia Nasa</h1>
-	<p>Este projeto é uma aplicação Android que exibe uma notícia sobre uma nova imagem divulgada pela NASA detalhando a “energia violenta” no centro da Via Láctea. </p>
-  <h2>Tecnologias utilizadas</h2>
+<h2>Tecnologias utilizadas</h2>
 <ul>
 	<li>Android Studio</li>
 	<li>Java</li>
-	
+	<li>XML</li>
+</ul>
+<h2>Bibliotecas Utilizadas</h2>
+<p>Para o desenvolvimento deste projeto, foram utilizadas as seguintes bibliotecas:</p>
+<ul>
+  <li>Glide: biblioteca utilizada para tratamento de imagens.</li>
+  <li>AndroidX: bibliotecas de suporte para a criação de aplicativos Android.</li>
+</ul>
+<h3>Tela Inicial (MainActivity)</h3>
+<p>A tela inicial contém dois botões que levam às listas de locais para se hospedar:</p>
+<ul>
+	<li><strong>Lista de Locais:</strong> Exibe uma lista com os nomes dos locais famosos para se hospedar.</li>
+	<li><strong>Lista de Locais com Imagens:</strong> Exibe uma lista com os nomes dos locais famosos para se hospedar, acompanhados de uma imagem do local.</li>
 </ul>
 
-<h2>Layout da tela</h2>
-<p>A tela da aplicação possui os seguintes elementos:</p>
+<h3>Lista de Locais (ListagemNoticia)</h3>
+<p>A tela de lista de locais exibe uma lista com os nomes dos locais famosos para se hospedar. Ao clicar em um item da lista, uma mensagem com o nome do local é exibida em um Toast.</p>
+
+<h3>Lista de Locais com Imagens (RecyclerHotel)</h3>
+<p>A tela de lista de locais com imagens exibe uma lista com os nomes dos locais famosos para se hospedar, acompanhados de uma imagem do local. Ao clicar em um item da lista, uma mensagem com o nome do local é exibida em um Toast.</p>
+
+<h2>Funcionalidades</h2>
 <ul>
-	<li>ImageView - exibe a imagem da notícia</li>
-	<li>TextView - exibe o título da notícia</li>
-	<li>TextView - exibe a data da notícia</li>
-	<li>TextView - exibe o conteúdo da notícia</li>
-	<li>Button - botão para avançar para a próxima notícia (não implementado neste projeto)</li>
+	<li><strong>Listagem de Locais:</strong> O aplicativo apresenta uma lista com os nomes dos locais famosos para se hospedar.</li>
+	<li><strong>Listagem de Locais com Imagens:</strong> O aplicativo apresenta uma lista com os nomes dos locais famosos para se hospedar, acompanhados de uma imagem do local.</li>
+	<li><strong>Clique em um item da lista:</strong> Ao clicar em um item da lista, uma mensagem com o nome do local é exibida em um Toast.</li>
 </ul>
-<h2>Como utilizar</h2>
-<p>Para utilizar o aplicativo, basta instalar o APK em um dispositivo Android ou rodar o aplicativo diretamente no emulador do Android Studio. Ao executar o aplicativo, basta clicar nos botões correspondentes para testar as funcionalidades.</p>
-<h2>Como contribuir</h2>
-<p>Contribuições são sempre bem-vindas! Se você deseja contribuir para o projeto, basta seguir os seguintes passos:</p>
+
+
+
+
+<h2>Como executar o projeto</h2>
 <ol>
-  <li>Faça um fork deste repositório.</li>
-  <li>Crie uma branch com a sua feature: git checkout -b minha-feature</li>
-  <li>Commit suas mudanças: git commit -m 'Minha nova feature'</li>
-  <li>Faça um push para a branch: git push origin minha-feature</li>
-  <li>Abra um pull request</li>
+	<li>Clone o repositório para o seu computador</li>
+	<li>Abra o projeto no Android Studio</li>
+	<li>Conecte o seu dispositivo Android ao computador ou utilize um emulador</li>
+	<li>Execute o aplicativo no Android Studio</li>
 </ol>
+
+<h2>Contribuição</h2>
+<p>Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma sugestão, por favor, abra uma issue no repositório.</p>
+
+<h2>Licença</h2>
+<p>Este projeto é licenciado sob a Licença MIT - veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>
+<h2>Telas</h2>
+
