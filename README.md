@@ -47,5 +47,3 @@
 
 <h2>Licença</h2>
 <p>Este projeto é licenciado sob a Licença MIT - veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>
-
-
