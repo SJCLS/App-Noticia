@@ -10,6 +10,7 @@
   <li>Glide: biblioteca utilizada para tratamento de imagens.</li>
   <li>AndroidX: bibliotecas de suporte para a criação de aplicativos Android.</li>
 </ul>
+<h2>Telas</h2>
 <h3>Tela Inicial (MainActivity)</h3>
 <p>A tela inicial contém dois botões que levam às listas de locais para se hospedar:</p>
 <ul>
@@ -46,5 +47,5 @@
 
 <h2>Licença</h2>
 <p>Este projeto é licenciado sob a Licença MIT - veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>
-<h2>Telas</h2>
+
 
