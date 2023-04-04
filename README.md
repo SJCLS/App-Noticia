@@ -4,8 +4,7 @@
 <ul>
 	<li>Android Studio</li>
 	<li>Java</li>
-	<li>XML</li>
-	<li>ConstraintLayout</li>
+	
 </ul>
 
 <h2>Layout da tela</h2>
@@ -28,5 +27,3 @@
   <li>Faça um push para a branch: git push origin minha-feature</li>
   <li>Abra um pull request</li>
 </ol>
-<h2>Autor</h2>
-<p>Este projeto foi desenvolvido por Samuel Jonathan Cardozo.</p>
