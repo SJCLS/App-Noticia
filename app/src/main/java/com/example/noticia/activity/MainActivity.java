@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(ir);
     }
     public void listaHoteis2(View view){
-        Intent ir = new Intent(MainActivity.this, RecyclerNoticia.class);
+        Intent ir = new Intent(MainActivity.this, RecyclerHotel.class);
         startActivity(ir);
     }
 }

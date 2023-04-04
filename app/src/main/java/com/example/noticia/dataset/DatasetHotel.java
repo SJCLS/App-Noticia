@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatasetHotel {
-    private static List<Hotel> lista;
+    private static List<Hotel> lista = new ArrayList<>();
 
-    public static List<Hotel> getLista() {
-        lista = new ArrayList<>();
+    static {
+
         lista.add(new Hotel("Emirates Palace", "Abu Dhabi", 800.00, R.drawable.img));
         lista.add(new Hotel("The Mark", "Nova York", 1200.00, R.drawable.img_1));
         lista.add(new Hotel("Laucala Island Resort", "Fiji", 1500.00, R.drawable.img_2));
@@ -31,13 +31,12 @@ public class DatasetHotel {
         lista.add(new Hotel("The Dorchester", "Londres", 900.00, R.drawable.img_17));
         lista.add(new Hotel("The Royal Mansour", "Marrakech", 1000.00, R.drawable.img_18));
         lista.add(new Hotel("The Balmoral", "Edimburgo", 2265.00, R.drawable.img_19));
+
+    }
+    public static List<Hotel> getLista() {
         return lista;
     }
 
-
-    public static void addPessoa(Hotel hotel) {
-        lista.add(hotel);
-    }
 }
 
 

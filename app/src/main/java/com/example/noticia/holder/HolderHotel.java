@@ -10,14 +10,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.noticia.R;
 
-public class HolderNoticia extends RecyclerView.ViewHolder {
+public class HolderHotel extends RecyclerView.ViewHolder {
 
     public TextView nome;
     public TextView local;
     public TextView valor;
     public ImageView capa;
 
-    public HolderNoticia(@NonNull View itemView) {
+    public HolderHotel(@NonNull View itemView) {
         super(itemView);
         nome = itemView.findViewById(R.id.txtNomeHotel);
         local = itemView.findViewById(R.id.txtLocal);
